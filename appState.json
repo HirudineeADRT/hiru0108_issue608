@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "afd59a32-ccdc-4688-88ec-192a2bcc97ee": {
+        "id": "afd59a32-ccdc-4688-88ec-192a2bcc97ee",
+        "parent": null,
+        "name": "hiru0108_issue608",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4f5e3cca-fb3c-491f-ac60-6c266117d167"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru0108_issue608"
+      },
+      "4f5e3cca-fb3c-491f-ac60-6c266117d167": {
+        "id": "4f5e3cca-fb3c-491f-ac60-6c266117d167",
+        "parent": "afd59a32-ccdc-4688-88ec-192a2bcc97ee",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru0108_issue608/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1HiruPythontestissue608any",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "afd59a32-ccdc-4688-88ec-192a2bcc97ee",
+    "openFiles": [
+      "4f5e3cca-fb3c-491f-ac60-6c266117d167"
+    ],
+    "currentFileId": "4f5e3cca-fb3c-491f-ac60-6c266117d167",
+    "resources": {
+      "apigusEast1HiruPythontestissue608any": {
+        "name": "apigusEast1HiruPythontestissue608any",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "Hiru_Python",
+          "apiId": "5lfeg68xcc",
+          "endpointType": "EDGE",
+          "rootResourceId": "h8t8jkldj4",
+          "existingResources": {
+            "/thetest": "7uobo9",
+            "/thetest/js": "eeshp7",
+            "/issueverify": "gx7opm",
+            "/": "h8t8jkldj4",
+            "/hiru/27": "j6p3s3",
+            "/hiru": "m7it15",
+            "/hiru/36": "rtfag1",
+            "/thetest/python": "t0i5e8"
+          },
+          "resourceMode": 0,
+          "resourceName": "test/issue608",
+          "resourcePath": "/test/issue608",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "5gjvnh",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru0108_issue608",
+    "projectDescription": "Updating API trigger gives an error when user tries to deploy the project. ",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564635321223
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru0108_issue608",
+      "url": "https://github.com/HirudineeADRT/hiru0108_issue608",
+      "branches": []
+    }
+  }
+}
